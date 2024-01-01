@@ -1,0 +1,63 @@
+.gallery {
+    position: relative;
+    width: 50%;
+    display: flex;
+   
+  
+  
+  }
+  
+  .image {
+   align-items: center;
+   justify-content: center;
+    width:300PX;
+    height: 300PX;
+    padding: 10px;
+   margin-left: 65PX;
+    
+}
+
+  #project
+{
+  background-color: #04AA6D;
+}
+
+ .overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #24bda1;
+   opacity: 0;
+    width: 300px;
+    height:100%;
+  
+    transition: .5s ease;
+    
+  }
+  
+  
+  
+  
+    
+  
+  
+  .gallery:hover .overlay {
+    opacity: 1;
+  } 
+  
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }h3{
+    text-decoration: underline;
+  }
